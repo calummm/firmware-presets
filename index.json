@@ -6387,7 +6387,7 @@
     },
     {
       "fullPath": "presets/4.5/osd/cal_osd.txt",
-      "hash": "2b8eb9921ed7328478da886307e400287ba8c05577bab3f582a36667da4d5d07",
+      "hash": "9f945d63c16d577766d437d6c6e78acfcb28e78d0466222889b64831724d0551",
       "title": "cal Analogue OSD",
       "firmware_version": [
         "4.4",
@@ -6398,7 +6398,6 @@
       "keywords": [
         "Analogue",
         "OSD",
-        "sugarK",
         "racing"
       ],
       "author": "cal",
@@ -6446,6 +6445,25 @@
         "100euro"
       ],
       "author": "antonig",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/other/cal_base.txt",
+      "hash": "6bb592d8c412e71d71d54fe28d2519ac261fd298cf3435b05fd4ca5d831ea206",
+      "title": "cal base modes",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "Analogue",
+        "OSD",
+        "sugarK",
+        "racing"
+      ],
+      "author": "cal",
       "priority": 0
     },
     {
