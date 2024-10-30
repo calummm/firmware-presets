@@ -1,0 +1,41 @@
+#$ TITLE: cal base modes
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: Analogue, OSD, sugarK, racing
+#$ AUTHOR: cal 
+
+#$ DESCRIPTION: cal race settings
+
+feature -ANTI_GRAVITY
+feature TELEMETRY
+feature LED_STRIP
+feature DISPLAY
+feature OSD
+
+# aux
+aux 0 0 0 1700 2100 0 0
+aux 1 1 4 1300 1700 0 0
+aux 2 2 4 1750 2100 0 0
+aux 3 13 5 1700 2100 0 0
+aux 4 35 3 1700 2100 0 0
+aux 5 40 2 900 2100 0 0
+aux 6 40 0 900 900 0 39
+aux 7 49 1 1700 2100 0 0
+aux 8 53 2 900 1300 0 0
+
+# adjrange
+adjrange 0 0 7 900 2100 29 7 0 0
+
+# rateprofile 0
+set thr_mid = 25
+set thr_expo = 65
+set roll_expo = 20
+set pitch_expo = 20
+set yaw_expo = 20
+set roll_srate = 45
+set pitch_srate = 45
+set yaw_srate = 45
+set throttle_limit_type = SCALE
+set throttle_limit_percent = 100
