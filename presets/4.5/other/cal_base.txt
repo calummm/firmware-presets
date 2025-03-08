@@ -3,7 +3,7 @@
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OTHER
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: Analogue, OSD, sugarK, racing
+#$ KEYWORDS: racing
 #$ AUTHOR: cal 
 
 #$ DESCRIPTION: cal race settings
@@ -57,7 +57,7 @@ feature OSD
     set roll_expo = 15
     set pitch_expo = 15
     set yaw_expo = 15
-    set roll_srate = 55
+    set roll_shttps://github.com/calummm/firmware-presetsrate = 55
     set pitch_srate = 50
     set yaw_srate = 55
     set throttle_limit_type = SCALE

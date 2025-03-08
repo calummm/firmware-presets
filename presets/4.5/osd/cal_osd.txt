@@ -1,12 +1,12 @@
-#$ TITLE: cal  OSD
+#$ TITLE: cal OSD
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: Analogue, Digital, OSD, racing
+#$ KEYWORDS: Analogue, hdZero, OSD, racing
 #$ AUTHOR: cal 
 
-#$ DESCRIPTION: cal SD OSD race settings
+#$ DESCRIPTION: cal OSD race settings
 
 # adjrange
 adjrange 0 0 7 900 2100 29 7 0 0
