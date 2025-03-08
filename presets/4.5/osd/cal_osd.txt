@@ -1,38 +1,112 @@
-#$ TITLE: cal Analogue OSD
+#$ TITLE: cal  OSD
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: Analogue, OSD, racing
+#$ KEYWORDS: Analogue, Digital, OSD, racing
 #$ AUTHOR: cal 
 
 #$ DESCRIPTION: cal SD OSD race settings
 
-set osd_vbat_pos = 6534
-set osd_rssi_pos = 360
-set osd_link_quality_pos = 2389
-set osd_rssi_dbm_pos = 353
-set osd_tim_1_pos = 386
-set osd_tim_2_pos = 6549
-set osd_remaining_time_estimate_pos = 33
-set osd_flymode_pos = 2401
-set osd_throttle_pos = 6529
-set osd_vtx_channel_pos = 2421
-set osd_current_pos = 343
-set osd_mah_drawn_pos = 364
-set osd_craft_name_pos = 6541
-set osd_home_dist_pos = 98
-set osd_flight_dist_pos = 130
-set osd_warnings_pos = 2122
-set osd_avg_cell_voltage_pos = 289
-set osd_pit_ang_pos = 97
-set osd_rol_ang_pos = 65
-set osd_disarmed_pos = 6187
-set osd_ready_mode_pos = 6508
-set osd_esc_tmp_pos = 163
-set osd_esc_rpm_pos = 150
-set osd_flip_arrow_pos = 14446
-set osd_core_temp_pos = 2360
-set osd_profile = 2
-set osd_canvas_height = 13
-set vcd_video_system = NTSC
+# adjrange
+adjrange 0 0 7 900 2100 29 7 0 0
+
+#$ OPTION_GROUP BEGIN: Set up OSD
+    
+  #$ OPTION BEGIN (UNCHECKED): Analogue
+    set osd_vbat_pos = 6534
+    set osd_rssi_pos = 360
+    set osd_link_quality_pos = 2389
+    set osd_rssi_dbm_pos = 353
+    set osd_tim_1_pos = 386
+    set osd_tim_2_pos = 6549
+    set osd_remaining_time_estimate_pos = 33
+    set osd_flymode_pos = 2401
+    set osd_throttle_pos = 6529
+    set osd_vtx_channel_pos = 2421
+    set osd_current_pos = 343
+    set osd_mah_drawn_pos = 364
+    set osd_craft_name_pos = 6541
+    set osd_home_dist_pos = 98
+    set osd_flight_dist_pos = 130
+    set osd_warnings_pos = 2122
+    set osd_avg_cell_voltage_pos = 289
+    set osd_pit_ang_pos = 97
+    set osd_rol_ang_pos = 65
+    set osd_disarmed_pos = 6187
+    set osd_ready_mode_pos = 6508
+    set osd_esc_tmp_pos = 163s = 6705
+    set osd_pit_ang_pos = 97
+    set osd_rol_ang_pos = 65
+    set osd_disarmed_pos = 6230
+    set osd_ready_mode_pos = 6424
+    set osd_esc_tmp_pos = 163
+    set osd_esc_rpm_pos = 150
+    set osd_flip_arrow_pos = 14554
+    set osd_core_temp_pos = 3529
+    set osd_sys_vtx_temp_pos = 3465
+    set osd_stat_bitmask = 1572
+    set osd_displayport_device = MSP
+    set osd_canvas_width = 50
+    set osd_canvas_height = 18
+    set osd_esc_rpm_pos = 150
+    set osd_flip_arrow_pos = 14446
+    set osd_core_temp_pos = 2360
+    set osd_profile = 2
+    set osd_canvas_height = 13
+    set vcd_video_system = NTSC
+  #$ OPTION END
+
+  #$ OPTION BEGIN (CHECKED): hdZero
+    set osd_core_temp_alarm = 80
+    set osd_vbat_pos = 3497
+    set osd_rssi_pos = 360
+    set osd_link_quality_pos = 3593
+    set osd_rssi_dbm_pos = 353
+    set osd_tim_1_pos = 386
+    set osd_tim_2_pos = 7721
+    set osd_remaining_time_estimate_pos = 33
+    set osd_flymode_pos = 2596
+    set osd_g_force_pos = 65
+    set osd_throttle_pos = 7713
+    set osd_vtx_channel_pos = 3561
+    set osd_current_pos = 343
+    set osd_mah_drawn_pos = 364
+    set osd_craft_name_pos = 6714
+    set osd_home_dist_pos = 98
+    set osd_flight_dist_pos = 130
+    set osd_warnings_pos = 14388
+    set osd_avg_cell_voltage_po    set osd_vbat_pos = 3497
+    set osd_rssi_pos = 360
+    set osd_link_quality_pos = 3593
+    set osd_rssi_dbm_pos = 353
+    set osd_tim_1_pos = 386
+    set osd_tim_2_pos = 7721
+    set osd_remaining_time_estimate_pos = 33
+    set osd_flymode_pos = 2596
+    set osd_g_force_pos = 65
+    set osd_throttle_pos = 7713
+    set osd_vtx_channel_pos = 3561
+    set osd_current_pos = 343
+    set osd_mah_drawn_pos = 364
+    set osd_craft_name_pos = 6714
+    set osd_home_dist_pos = 98
+    set osd_flight_dist_pos = 130
+    set osd_warnings_pos = 14388
+    set osd_avg_cell_voltage_pos = 6705
+    set osd_pit_ang_pos = 97
+    set osd_rol_ang_pos = 65
+    set osd_disarmed_pos = 6230
+    set osd_ready_mode_pos = 6424
+    set osd_esc_tmp_pos = 163
+    set osd_esc_rpm_pos = 150
+    set osd_flip_arrow_pos = 14554
+    set osd_core_temp_pos = 3529
+    set osd_sys_vtx_temp_pos = 3465
+    set osd_stat_bitmask = 1572
+    set osd_displayport_device = MSP
+    set osd_canvas_width = 50
+    set osd_canvas_height = 18
+    set vcd_video_system = HD
+  #$ OPTION END
+#$ OPTION_GROUP END
