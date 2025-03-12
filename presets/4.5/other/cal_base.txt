@@ -14,6 +14,9 @@ feature LED_STRIP
 feature DISPLAY
 feature OSD
 
+set craft_name = cal
+set pilot_name = cal
+
 #$ OPTION_GROUP BEGIN: Modes
     
   #$ OPTION BEGIN (UNCHECKED): Analogue
@@ -32,11 +35,10 @@ feature OSD
   #$ OPTION BEGIN (CHECKED): hdZero
     # aux
     aux 0 0 0 1700 2100 0 0
-    aux 1 1 4 1700 2100 0 0
-    aux 2 13 5 1700 2100 0 0
-    aux 3 35 3 1700 2100 0 0
-    aux 4 49 1 1700 2100 0 0
-    aux 5 53 2 900 1300 0 0
+    aux 1 13 5 1700 2100 0 0
+    aux 2 35 3 1700 2100 0 0
+    aux 3 49 1 1700 2100 0 0
+    aux 4 53 2 900 1300 0 0
 
     # vtx
     vtx 0 2 0 0 1 900 1650
@@ -57,7 +59,7 @@ feature OSD
     set roll_expo = 15
     set pitch_expo = 15
     set yaw_expo = 15
-    set roll_shttps://github.com/calummm/firmware-presetsrate = 55
+    set roll_srate = 55
     set pitch_srate = 50
     set yaw_srate = 55
     set throttle_limit_type = SCALE
